@@ -63,3 +63,6 @@ commandBuffer.commit()
 
 // Wait for the Calculation to Complete
 commandBuffer.waitUntilCompleted()
+
+// verify results 
+verify(aBuffer: aBuffer, bBuffer: bBuffer, resultBuffer: resultBuffer)
